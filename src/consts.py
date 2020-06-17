@@ -1,0 +1,1 @@
+CHROME_DRIVE_PATH = "C:/pycharm_ws/project/cloud_cover/bin/chromedriver.exe"

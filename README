@@ -1,0 +1,13 @@
+Cloud Cover test  cases:
+1.	Part 1: Front-End Automation Testing
+Steps :
+1.	Clone : https://github.com/nik-git/cldcvr.git
+2.	Make sure Python version = Python 3.8.3rc1
+3.	Create a virtual env : python –m virtualenv <somename>
+4.	set PYTHONPATH=C:/pycharm_ws/project/cldcvr/cldcvr
+5.	install packages from requirements.txt : pip install -r requirements.txt
+6.	cd C:\pycharm_ws\project\cldcvr\cldcvr\tests
+7.	pytest --html="../output/report.html" --self-contained-html --log-level INFO
+8.	Open output/report.html in Chrome. Get values in HTML file.
+9.	Chrome version : 83
+10.	OS : win 7 32 bit
